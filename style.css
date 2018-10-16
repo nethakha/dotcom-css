@@ -1,0 +1,180 @@
+@-moz-document regexp("https://www.itpassportsiken.com/kakomon/*/.*.html"), regexp("https://www.sg-siken.com/kakomon/*/.*.html"), regexp("https://www.fe-siken.com/kakomon/*/.*.html"), regexp("https://www.ap-siken.com/kakomon/*/.*.html"), regexp("https://www.sc-siken.com/kakomon/*/.*.html"), regexp("https://www.nw-siken.com/kakomon/*/.*.html"), regexp("https://www.db-siken.com/kakomon/*/.*.html"), regexp("https://www.pm-siken.com/kakomon/*/.*.html") {
+body {
+    background: #efefef;
+    overflow-x: hidden
+}
+#s1,
+#s2,
+#s3,
+#s4,
+#s5,
+#s6,
+#s7,
+#s8,
+#s9 {
+    border-top: 1px solid #bfbfbf;
+    padding-top: 2em
+}
+.main h3 {
+    font-size: 1.2em!important
+}
+.main h3::before,
+.main h3::after {
+    visibility: hidden
+}
+#content {
+    box-sizing: border-box;
+    width: 100vw
+}
+main#mainCol {
+    width: 100%;
+    max-width: 1052px;
+    color: #333;
+    letter-spacing: normal;
+    background: #fafafa;
+    box-sizing: border-box;
+    ;
+    padding: 4em
+}
+.kako * {
+    font-size: 1em!important
+}
+.centeringBox {
+    min-width: inherit
+}
+.img_margin:after {
+    clear: both
+}
+.img_margin:before,
+.img_margin:after {
+    content: "";
+    display: table
+}
+.img_margin {
+    margin: 1em 10em 1em 0!important;
+    display: table
+}
+.img_margin img {
+    border: 1px solid #C8E6C9;
+    border-radius: 3px;
+    background: #E8F5E9;
+    max-width: 100%;
+    float: left;
+    padding: 1em 5em;
+    transition: all .1s
+}
+.img_margin img:hover {
+    box-shadow: none;
+    position: relative;
+    background: #C8E6C9;
+    border: 1px solid #A5D6A7;
+    transform: translate(0, 5px)
+}
+.img_margin img:active {
+    width: 10%;
+    height: auto;
+    padding: 0
+}
+.ansbg {
+    background: #F1F8E9;
+    border: 1px solid #DCEDC8
+}
+.select.ansbg {
+    font-weight: 700;
+    display: inline-block;
+    vertical-align: text-top
+}
+.select.ansbg ul li {
+    font-weight: 400;
+    transition: all .1s
+}
+.select.ansbg ul li:hover {
+    background: #66BB6A;
+    color: #fff;
+    transition: all .1s
+}
+.mondai > ul,
+.mondai > ol,
+.main.kako > div:not([class]) > ul,
+.main.kako > div:not([class]) > ol {
+    background: #f6f6f6;
+    padding: 0;
+    width: 100%;
+    max-width: 800px;
+    border: 1px solid #BDBDBD;
+    border-radius: 3px
+}
+.mondai > ul > li,
+.mondai > ol > li,
+.main.kako > div:not([class]) > ul > li,
+.main.kako > div:not([class]) > ol > li {
+    padding: 1.5em 5em;
+    border-bottom: 1px solid #e1e1e1;
+    font-size: .9em!important;
+    margin: 0!important
+}
+.mondai > ul > li:before,
+.mondai > ul > li:after,
+.main.kako > div:not([class]) > ul > li:before,
+.main.kako > div:not([class]) > ul > li:after {
+    padding: 1.5em 0 0 2em
+}
+.mondai > ol > li:before,
+.main.kako > div:not([class]) > ol > li:before {
+    margin: 1.5em 0 0 2em
+}
+.mondai > ul > li:nth-child(even),
+.mondai > ol > li:nth-child(even),
+.main.kako > div:not([class]) > ul > li:nth-child(even),
+.main.kako > div:not([class]) > ol > li:nth-child(even) {
+    background: #efefef
+}
+.mondai > ul > li:last-child,
+.mondai > ol > li:last-child,
+.main.kako > div:not([class]) > ul > li:last-child,
+.main.kako > div:not([class]) > ol > li:last-child {
+    border: none
+}
+li.li1::before,
+li.li2::before,
+li.li3::before,
+li.li4::before,
+li.li5::before,
+li.li6::before,
+li.li7::before,
+li.li8::before,
+li.li9::before {
+    font-weight: 700
+}
+nav#sideCol
+/*,.ad*/ {
+    display: none
+}
+#toTop {
+    width: 140px;
+    padding: 4em 0;
+    left: 655px;
+    top: auto;
+    bottom: 10px
+}
+#pmNav {
+    top: 0;
+    left: 1700px;
+    bottom: auto
+}
+#pmNav li:hover {
+    background: #666
+}
+#pmNav li:hover a {
+    text-decoration: none
+}
+#pmNav li a {
+    padding: 1em 0;
+    width: 140px;
+    display: inline-block;
+    text-align: center
+}
+#CDT { /* timer */
+    right: 157px;
+}
+}
