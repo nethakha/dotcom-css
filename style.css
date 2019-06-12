@@ -1,8 +1,19 @@
 @-moz-document regexp("https://www.itpassportsiken.com/kakomon/*/.*.html"), regexp("https://www.sg-siken.com/kakomon/*/.*.html"), regexp("https://www.fe-siken.com/kakomon/*/.*.html"), regexp("https://www.ap-siken.com/kakomon/*/.*.html"), regexp("https://www.sc-siken.com/kakomon/*/.*.html"), regexp("https://www.nw-siken.com/kakomon/*/.*.html"), regexp("https://www.db-siken.com/kakomon/*/.*.html"), regexp("https://www.pm-siken.com/kakomon/*/.*.html") {
+:root {
+    /*--main-width: 1052px;*/   
+    --main-width: 950px;
+}
 body {
     background: #efefef;
     overflow-x: hidden
 }
+#content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
 #s1,
 #s2,
 #s3,
@@ -28,7 +39,7 @@ body {
 }
 main#mainCol {
     width: 100%;
-    max-width: 1052px;
+    max-width: var(--main-width);
     color: #333;
     letter-spacing: normal;
     background: #fafafa;
@@ -147,19 +158,23 @@ li.li9::before {
     font-weight: 700
 }
 nav#sideCol
-/*,.ad*/ {
+,.ad {
     display: none
 }
 #toTop {
     width: 140px;
     padding: 4em 0;
-    left: 655px;
     top: auto;
+    left: 50%;
+    right: 50%;
     bottom: 10px
 }
 #pmNav {
+    
+    width: 140px;
     top: 0;
-    left: 1700px;
+    left: calc(50% + calc( var(--main-width) ) + 90px);
+    right: 50%;
     bottom: auto
 }
 #pmNav li:hover {
@@ -175,6 +190,8 @@ nav#sideCol
     text-align: center
 }
 #CDT { /* timer */
-    right: 157px;
+    display: none;
+    left: calc(50% - calc( var(--main-width) / 2 ) - 90px);
+    right: 50%;
 }
 }
